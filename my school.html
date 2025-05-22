@@ -6,21 +6,18 @@
           content="width=device-width, initial-scale=1.0">
     <title>Navigation Bar</title>
     <link rel="stylesheet" href=
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    
+<style> 
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-    
     html {
         overflow-x: hidden;
     }
-    
     :root {
         --primary-color: #8490ff;
         --secondary-color: #212121;
@@ -29,7 +26,6 @@
         --bg-gray: #f2f2f2;
         --header-green-color: #36ed22;
     }
-    
     body {
         font-family: Arial, sans-serif;
         background-color: #fff;
@@ -44,17 +40,14 @@
         font-size: 1.75rem;
         padding: 5px;
     }
-    
     a {
         text-decoration: none;
         color: #8490ff;
         transition: color 0.3s ease;
     }
-    
     a:hover {
         color: #212121;
     }
-    
     .header {
         padding: 1.6rem 4.8rem;
         display: flex;
@@ -116,7 +109,7 @@
         color: rgb(33, 105, 239);
     }
     
-    @media screen and (max-width: 768px) {
+    media screen and (max-width: 768px) {
         .icon {
             display: flex;
             position: absolute;
@@ -182,7 +175,7 @@
         animation: img-blink 2s infinite alternate;
     }
     
-    @keyframes img-blink {
+    keyframes img-blink {
         from {
             opacity: 1;
         }
@@ -314,7 +307,7 @@
         margin-bottom: 0.5rem;
     }
     
-    @keyframes fadeInUp {
+    keyframes fadeInUp {
         0% {
             opacity: 0;
             transform: translateY(20px);
@@ -326,7 +319,7 @@
         }
     }
     
-    @media screen and (max-width: 768px) {
+    media screen and (max-width: 768px) {
         .notice-container {
             flex-direction: column;
         }
@@ -455,7 +448,7 @@
         margin-bottom: 0;
     }
     
-    @media screen and (max-width: 768px) {
+    media screen and (max-width: 768px) {
         .aboutus-heading {
             font-size: 2rem;
         }
@@ -476,7 +469,7 @@
         margin-bottom: 2rem;
     }
     
-    @media screen and (max-width: 768px) {
+    media screen and (max-width: 768px) {
         .location-heading {
             font-size: 2rem;
         }
@@ -494,7 +487,7 @@
         animation: blink 1s infinite alternate;
     }
     
-    @keyframes blink {
+    keyframes blink {
         from {
             opacity: 1;
         }
